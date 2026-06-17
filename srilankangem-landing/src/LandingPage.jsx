@@ -6,16 +6,12 @@ export default function LandingPage() {
       <div className="text-center px-6 py-12">
         {/* Logo Section */}
         <div className="flex justify-center mb-8">
-    
-            <div className="flex flex-col justify-center items-center">
-              <img src={logo} alt="logo" className="w-[280px] h-52"/>
-              <h2 className="text-2xl text-4xl text-[#c9a03d]">Sri Lankan Gem Company</h2>
-            </div>
-            
+          <div className="flex flex-col justify-center items-center">
+            <img src={logo} alt="logo" className="w-[280px] h-52"/>
+            <h2 className="text-2xl text-4xl text-[#c9a03d]">Sri Lankan Gem Company</h2>
+          </div>
         </div>
         
-        
-
         {/* Description */}
         <p className="text-lg text-[#818181] mb-8 max-w-xl mx-auto leading-relaxed">
           Discover the finest collection of authentic Sri Lankan gemstones. 
@@ -29,7 +25,16 @@ export default function LandingPage() {
           ✦ LAUNCHING SOON ✦
         </div>
 
-    
+        {/* Contact Email */}
+        <div className="mb-8">
+          <p className="text-sm text-gray-500 mb-2">For inquiries, contact us at:</p>
+          <a 
+            href="mailto:info@srilankangem.com" 
+            className="text-[#2b338d] font-medium text-lg hover:underline transition-all duration-200"
+          >
+            info@srilankangem.com
+          </a>
+        </div>
 
         {/* Social/Trust Indicators */}
         <div className="mt-12 flex justify-center gap-8 text-sm text-gray-400">
